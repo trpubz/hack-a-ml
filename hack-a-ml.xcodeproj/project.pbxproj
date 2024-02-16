@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255E11522B7FC9F90065A4DA /* hack_a_mlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E11512B7FC9F90065A4DA /* hack_a_mlApp.swift */; };
+		255E11542B7FC9F90065A4DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E11532B7FC9F90065A4DA /* ContentView.swift */; };
+		255E11562B7FC9FB0065A4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255E11552B7FC9FB0065A4DA /* Assets.xcassets */; };
+		255E11592B7FC9FB0065A4DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255E11582B7FC9FB0065A4DA /* Preview Assets.xcassets */; };
+		255E11632B7FC9FB0065A4DA /* hack_a_mlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E11622B7FC9FB0065A4DA /* hack_a_mlTests.swift */; };
+		255E116D2B7FC9FB0065A4DA /* hack_a_mlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E116C2B7FC9FB0065A4DA /* hack_a_mlUITests.swift */; };
+		255E116F2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E116E2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255E115F2B7FC9FB0065A4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255E11462B7FC9F90065A4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255E114D2B7FC9F90065A4DA;
+			remoteInfo = "hack-a-ml";
+		};
+		255E11692B7FC9FB0065A4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255E11462B7FC9F90065A4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255E114D2B7FC9F90065A4DA;
+			remoteInfo = "hack-a-ml";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255E114E2B7FC9F90065A4DA /* hack-a-ml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hack-a-ml.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255E11512B7FC9F90065A4DA /* hack_a_mlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_a_mlApp.swift; sourceTree = "<group>"; };
+		255E11532B7FC9F90065A4DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		255E11552B7FC9FB0065A4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255E11582B7FC9FB0065A4DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		255E115E2B7FC9FB0065A4DA /* hack-a-mlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hack-a-mlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255E11622B7FC9FB0065A4DA /* hack_a_mlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_a_mlTests.swift; sourceTree = "<group>"; };
+		255E11682B7FC9FB0065A4DA /* hack-a-mlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hack-a-mlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255E116C2B7FC9FB0065A4DA /* hack_a_mlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_a_mlUITests.swift; sourceTree = "<group>"; };
+		255E116E2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_a_mlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255E114B2B7FC9F90065A4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255E115B2B7FC9FB0065A4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255E11652B7FC9FB0065A4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255E11452B7FC9F90065A4DA = {
+			isa = PBXGroup;
+			children = (
+				255E11502B7FC9F90065A4DA /* hack-a-ml */,
+				255E11612B7FC9FB0065A4DA /* hack-a-mlTests */,
+				255E116B2B7FC9FB0065A4DA /* hack-a-mlUITests */,
+				255E114F2B7FC9F90065A4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255E114F2B7FC9F90065A4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255E114E2B7FC9F90065A4DA /* hack-a-ml.app */,
+				255E115E2B7FC9FB0065A4DA /* hack-a-mlTests.xctest */,
+				255E11682B7FC9FB0065A4DA /* hack-a-mlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255E11502B7FC9F90065A4DA /* hack-a-ml */ = {
+			isa = PBXGroup;
+			children = (
+				255E11512B7FC9F90065A4DA /* hack_a_mlApp.swift */,
+				255E11532B7FC9F90065A4DA /* ContentView.swift */,
+				255E11552B7FC9FB0065A4DA /* Assets.xcassets */,
+				255E11572B7FC9FB0065A4DA /* Preview Content */,
+			);
+			path = "hack-a-ml";
+			sourceTree = "<group>";
+		};
+		255E11572B7FC9FB0065A4DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				255E11582B7FC9FB0065A4DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		255E11612B7FC9FB0065A4DA /* hack-a-mlTests */ = {
+			isa = PBXGroup;
+			children = (
+				255E11622B7FC9FB0065A4DA /* hack_a_mlTests.swift */,
+			);
+			path = "hack-a-mlTests";
+			sourceTree = "<group>";
+		};
+		255E116B2B7FC9FB0065A4DA /* hack-a-mlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				255E116C2B7FC9FB0065A4DA /* hack_a_mlUITests.swift */,
+				255E116E2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift */,
+			);
+			path = "hack-a-mlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255E114D2B7FC9F90065A4DA /* hack-a-ml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255E11722B7FC9FB0065A4DA /* Build configuration list for PBXNativeTarget "hack-a-ml" */;
+			buildPhases = (
+				255E114A2B7FC9F90065A4DA /* Sources */,
+				255E114B2B7FC9F90065A4DA /* Frameworks */,
+				255E114C2B7FC9F90065A4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hack-a-ml";
+			productName = "hack-a-ml";
+			productReference = 255E114E2B7FC9F90065A4DA /* hack-a-ml.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255E115D2B7FC9FB0065A4DA /* hack-a-mlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255E11752B7FC9FB0065A4DA /* Build configuration list for PBXNativeTarget "hack-a-mlTests" */;
+			buildPhases = (
+				255E115A2B7FC9FB0065A4DA /* Sources */,
+				255E115B2B7FC9FB0065A4DA /* Frameworks */,
+				255E115C2B7FC9FB0065A4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255E11602B7FC9FB0065A4DA /* PBXTargetDependency */,
+			);
+			name = "hack-a-mlTests";
+			productName = "hack-a-mlTests";
+			productReference = 255E115E2B7FC9FB0065A4DA /* hack-a-mlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255E11672B7FC9FB0065A4DA /* hack-a-mlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255E11782B7FC9FB0065A4DA /* Build configuration list for PBXNativeTarget "hack-a-mlUITests" */;
+			buildPhases = (
+				255E11642B7FC9FB0065A4DA /* Sources */,
+				255E11652B7FC9FB0065A4DA /* Frameworks */,
+				255E11662B7FC9FB0065A4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255E116A2B7FC9FB0065A4DA /* PBXTargetDependency */,
+			);
+			name = "hack-a-mlUITests";
+			productName = "hack-a-mlUITests";
+			productReference = 255E11682B7FC9FB0065A4DA /* hack-a-mlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255E11462B7FC9F90065A4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					255E114D2B7FC9F90065A4DA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					255E115D2B7FC9FB0065A4DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 255E114D2B7FC9F90065A4DA;
+					};
+					255E11672B7FC9FB0065A4DA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 255E114D2B7FC9F90065A4DA;
+					};
+				};
+			};
+			buildConfigurationList = 255E11492B7FC9F90065A4DA /* Build configuration list for PBXProject "hack-a-ml" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255E11452B7FC9F90065A4DA;
+			productRefGroup = 255E114F2B7FC9F90065A4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255E114D2B7FC9F90065A4DA /* hack-a-ml */,
+				255E115D2B7FC9FB0065A4DA /* hack-a-mlTests */,
+				255E11672B7FC9FB0065A4DA /* hack-a-mlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255E114C2B7FC9F90065A4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255E11592B7FC9FB0065A4DA /* Preview Assets.xcassets in Resources */,
+				255E11562B7FC9FB0065A4DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255E115C2B7FC9FB0065A4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255E11662B7FC9FB0065A4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255E114A2B7FC9F90065A4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255E11542B7FC9F90065A4DA /* ContentView.swift in Sources */,
+				255E11522B7FC9F90065A4DA /* hack_a_mlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255E115A2B7FC9FB0065A4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255E11632B7FC9FB0065A4DA /* hack_a_mlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255E11642B7FC9FB0065A4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255E116F2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift in Sources */,
+				255E116D2B7FC9FB0065A4DA /* hack_a_mlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255E11602B7FC9FB0065A4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255E114D2B7FC9F90065A4DA /* hack-a-ml */;
+			targetProxy = 255E115F2B7FC9FB0065A4DA /* PBXContainerItemProxy */;
+		};
+		255E116A2B7FC9FB0065A4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255E114D2B7FC9F90065A4DA /* hack-a-ml */;
+			targetProxy = 255E11692B7FC9FB0065A4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		255E11702B7FC9FB0065A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255E11712B7FC9FB0065A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255E11732B7FC9FB0065A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hack-a-ml/Preview Content\"";
+				DEVELOPMENT_TEAM = 5AJ5NZESYF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trpubz.hack-a-ml";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255E11742B7FC9FB0065A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hack-a-ml/Preview Content\"";
+				DEVELOPMENT_TEAM = 5AJ5NZESYF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trpubz.hack-a-ml";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255E11762B7FC9FB0065A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AJ5NZESYF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trpubz.hack-a-mlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hack-a-ml.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hack-a-ml";
+			};
+			name = Debug;
+		};
+		255E11772B7FC9FB0065A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AJ5NZESYF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trpubz.hack-a-mlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hack-a-ml.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hack-a-ml";
+			};
+			name = Release;
+		};
+		255E11792B7FC9FB0065A4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AJ5NZESYF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trpubz.hack-a-mlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hack-a-ml";
+			};
+			name = Debug;
+		};
+		255E117A2B7FC9FB0065A4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AJ5NZESYF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "trpubz.hack-a-mlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hack-a-ml";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255E11492B7FC9F90065A4DA /* Build configuration list for PBXProject "hack-a-ml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255E11702B7FC9FB0065A4DA /* Debug */,
+				255E11712B7FC9FB0065A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255E11722B7FC9FB0065A4DA /* Build configuration list for PBXNativeTarget "hack-a-ml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255E11732B7FC9FB0065A4DA /* Debug */,
+				255E11742B7FC9FB0065A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255E11752B7FC9FB0065A4DA /* Build configuration list for PBXNativeTarget "hack-a-mlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255E11762B7FC9FB0065A4DA /* Debug */,
+				255E11772B7FC9FB0065A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255E11782B7FC9FB0065A4DA /* Build configuration list for PBXNativeTarget "hack-a-mlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255E11792B7FC9FB0065A4DA /* Debug */,
+				255E117A2B7FC9FB0065A4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255E11462B7FC9F90065A4DA /* Project object */;
+}
