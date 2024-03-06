@@ -14,16 +14,18 @@
 		255E11632B7FC9FB0065A4DA /* hack_a_mlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E11622B7FC9FB0065A4DA /* hack_a_mlTests.swift */; };
 		255E116D2B7FC9FB0065A4DA /* hack_a_mlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E116C2B7FC9FB0065A4DA /* hack_a_mlUITests.swift */; };
 		255E116F2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E116E2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift */; };
+		255E117D2B7FF5F20065A4DA /* statcast.csv in Resources */ = {isa = PBXBuildFile; fileRef = 255E117C2B7FF5F20065A4DA /* statcast.csv */; };
+		255E117E2B7FF5F20065A4DA /* statcast.csv in Resources */ = {isa = PBXBuildFile; fileRef = 255E117C2B7FF5F20065A4DA /* statcast.csv */; };
+		255E11832B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 255E11822B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel */; };
+		255E11842B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 255E11822B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel */; };
+		255E11872B7FF9FA0065A4DA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E11862B7FF9FA0065A4DA /* Player.swift */; };
+		255E11882B7FF9FA0065A4DA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E11862B7FF9FA0065A4DA /* Player.swift */; };
+		255E11892B7FFCE90065A4DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E11532B7FC9F90065A4DA /* ContentView.swift */; };
+		255E118C2B81105B0065A4DA /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E118B2B81105B0065A4DA /* ResultView.swift */; };
+		255E118D2B81105B0065A4DA /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255E118B2B81105B0065A4DA /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		255E115F2B7FC9FB0065A4DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 255E11462B7FC9F90065A4DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 255E114D2B7FC9F90065A4DA;
-			remoteInfo = "hack-a-ml";
-		};
 		255E11692B7FC9FB0065A4DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 255E11462B7FC9F90065A4DA /* Project object */;
@@ -44,6 +46,11 @@
 		255E11682B7FC9FB0065A4DA /* hack-a-mlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hack-a-mlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		255E116C2B7FC9FB0065A4DA /* hack_a_mlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_a_mlUITests.swift; sourceTree = "<group>"; };
 		255E116E2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hack_a_mlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		255E117C2B7FF5F20065A4DA /* statcast.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = statcast.csv; sourceTree = "<group>"; };
+		255E11822B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EV50_BR_OZS_PA_2_HR.mlmodel; sourceTree = "<group>"; };
+		255E11862B7FF9FA0065A4DA /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		255E118B2B81105B0065A4DA /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		255E118E2B811C330065A4DA /* hack-a-ml.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hack-a-ml.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,7 @@
 		255E11452B7FC9F90065A4DA = {
 			isa = PBXGroup;
 			children = (
+				255E118E2B811C330065A4DA /* hack-a-ml.xctestplan */,
 				255E11502B7FC9F90065A4DA /* hack-a-ml */,
 				255E11612B7FC9FB0065A4DA /* hack-a-mlTests */,
 				255E116B2B7FC9FB0065A4DA /* hack-a-mlUITests */,
@@ -94,8 +102,10 @@
 		255E11502B7FC9F90065A4DA /* hack-a-ml */ = {
 			isa = PBXGroup;
 			children = (
+				255E118A2B81104C0065A4DA /* views */,
+				255E11852B7FF9ED0065A4DA /* models */,
+				255E117B2B7FF5AA0065A4DA /* data */,
 				255E11512B7FC9F90065A4DA /* hack_a_mlApp.swift */,
-				255E11532B7FC9F90065A4DA /* ContentView.swift */,
 				255E11552B7FC9FB0065A4DA /* Assets.xcassets */,
 				255E11572B7FC9FB0065A4DA /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				255E116E2B7FC9FB0065A4DA /* hack_a_mlUITestsLaunchTests.swift */,
 			);
 			path = "hack-a-mlUITests";
+			sourceTree = "<group>";
+		};
+		255E117B2B7FF5AA0065A4DA /* data */ = {
+			isa = PBXGroup;
+			children = (
+				255E11822B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel */,
+				255E117C2B7FF5F20065A4DA /* statcast.csv */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		255E11852B7FF9ED0065A4DA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				255E11862B7FF9FA0065A4DA /* Player.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		255E118A2B81104C0065A4DA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				255E11532B7FC9F90065A4DA /* ContentView.swift */,
+				255E118B2B81105B0065A4DA /* ResultView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +194,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				255E11602B7FC9FB0065A4DA /* PBXTargetDependency */,
 			);
 			name = "hack-a-mlTests";
 			productName = "hack-a-mlTests";
@@ -231,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255E117D2B7FF5F20065A4DA /* statcast.csv in Resources */,
 				255E11592B7FC9FB0065A4DA /* Preview Assets.xcassets in Resources */,
 				255E11562B7FC9FB0065A4DA /* Assets.xcassets in Resources */,
 			);
@@ -240,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255E117E2B7FF5F20065A4DA /* statcast.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255E11872B7FF9FA0065A4DA /* Player.swift in Sources */,
 				255E11542B7FC9F90065A4DA /* ContentView.swift in Sources */,
+				255E118C2B81105B0065A4DA /* ResultView.swift in Sources */,
 				255E11522B7FC9F90065A4DA /* hack_a_mlApp.swift in Sources */,
+				255E11832B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255E11892B7FFCE90065A4DA /* ContentView.swift in Sources */,
+				255E11842B7FF7650065A4DA /* EV50_BR_OZS_PA_2_HR.mlmodel in Sources */,
+				255E118D2B81105B0065A4DA /* ResultView.swift in Sources */,
+				255E11882B7FF9FA0065A4DA /* Player.swift in Sources */,
 				255E11632B7FC9FB0065A4DA /* hack_a_mlTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +326,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		255E11602B7FC9FB0065A4DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 255E114D2B7FC9F90065A4DA /* hack-a-ml */;
-			targetProxy = 255E115F2B7FC9FB0065A4DA /* PBXContainerItemProxy */;
-		};
 		255E116A2B7FC9FB0065A4DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 255E114D2B7FC9F90065A4DA /* hack-a-ml */;

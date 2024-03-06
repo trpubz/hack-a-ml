@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "44922957-77F0-4D37-9BA0-5126915EAABC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8A25ABD-B757-4765-9E3C-03E3E0A3E821"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hack-a-ml/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "getRandomRecord(from:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "E8A25ABD-B757-4765-9E3C-03E3E0A3E821 - b42434263346027d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_ml.getRandomRecord(from: Swift.Array&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.Optional&lt;hack_a_ml.Player&gt;"
+                  moduleName = "hack-a-ml"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "E8A25ABD-B757-4765-9E3C-03E3E0A3E821 - af0bac2de512c3f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_mlTests.getRandomRecord(from: Swift.Array&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.Optional&lt;hack_a_mlTests.Player&gt;"
+                  moduleName = "hack-a-mlTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "E8A25ABD-B757-4765-9E3C-03E3E0A3E821 - b4243426334602c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_ml.getRandomRecord(from: Swift.Array&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.Optional&lt;hack_a_ml.Player&gt;"
+                  moduleName = "hack-a-ml"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  uuid = "E8A25ABD-B757-4765-9E3C-03E3E0A3E821 - af0bac2de512c348"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_mlTests.getRandomRecord(from: Swift.Array&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.Optional&lt;hack_a_mlTests.Player&gt;"
+                  moduleName = "hack-a-mlTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6701A42-4F40-4107-905B-F2516E3B0AAF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hack-a-ml/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "getRandomRecord(from:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C6701A42-4F40-4107-905B-F2516E3B0AAF - b42434263346038b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_ml.getRandomRecord(from: Swift.Array&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.Optional&lt;hack_a_ml.Player&gt;"
+                  moduleName = "hack-a-ml"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+               <Location
+                  uuid = "C6701A42-4F40-4107-905B-F2516E3B0AAF - af0bac2de512c202"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_mlTests.getRandomRecord(from: Swift.Array&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.Optional&lt;hack_a_mlTests.Player&gt;"
+                  moduleName = "hack-a-mlTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1072">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A39BAA08-9491-4FE7-9D6E-1D55851AFE34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hack-a-mlTests/hack_a_mlTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "testPlayerCreation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4293B793-B89F-4A1C-B2A5-3D3D64DFE26D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hack-a-ml/models/Player.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "init(kwargs:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4293B793-B89F-4A1C-B2A5-3D3D64DFE26D - 21ebbbf2227b599c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_ml.Player.init(kwargs: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; hack_a_ml.Player"
+                  moduleName = "hack-a-ml"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/models/Player.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "4293B793-B89F-4A1C-B2A5-3D3D64DFE26D - 5159aa8ddb74d0a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hack_a_mlTests.Player.init(kwargs: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; hack_a_mlTests.Player"
+                  moduleName = "hack-a-mlTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trpubz/turing2308/4mod/hackathon/hack-a-ml/hack-a-ml/models/Player.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CD82066-A124-4D0A-92BE-C1AB32D1AD9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hack-a-ml/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8366073F-C584-42BB-98FA-B15568B6F2DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hack-a-mlTests/hack_a_mlTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testModelPrediction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2024331A-D774-4DCD-8762-1A9B4B9155F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hack-a-mlTests/hack_a_mlTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testModelPrediction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

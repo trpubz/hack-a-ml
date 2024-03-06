@@ -1,0 +1,42 @@
+{
+  "configurations" : [
+    {
+      "id" : "E30D4C6F-F65A-4D0F-B564-580E9E72B639",
+      "name" : "Test Scheme Action",
+      "options" : {
+        "targetForVariableExpansion" : {
+          "containerPath" : "container:hack-a-ml.xcodeproj",
+          "identifier" : "255E115D2B7FC9FB0065A4DA",
+          "name" : "hack-a-mlTests"
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:hack-a-ml.xcodeproj",
+      "identifier" : "255E114D2B7FC9F90065A4DA",
+      "name" : "hack-a-ml"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:hack-a-ml.xcodeproj",
+        "identifier" : "255E115D2B7FC9FB0065A4DA",
+        "name" : "hack-a-mlTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:hack-a-ml.xcodeproj",
+        "identifier" : "255E11672B7FC9FB0065A4DA",
+        "name" : "hack-a-mlUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
